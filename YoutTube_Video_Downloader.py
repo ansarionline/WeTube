@@ -67,7 +67,7 @@ try:
         threading.Thread(target=download_video, args=(url, resolution, player, output_path, text_widget)).start()
 
     root = tk.Tk()
-    root.title("YouTube Downloader")
+    root.title("WeTube")
     root.minsize(600,600)
     try:
         root.iconbitmap('icon.ico')
